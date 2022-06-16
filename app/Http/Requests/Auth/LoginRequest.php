@@ -29,6 +29,7 @@ class LoginRequest extends FormRequest
     public function rules()
     {
         return [
+            //'username' => ['required', 'string'],
             'email' => ['required', 'string', 'email'],
             'password' => ['required', 'string'],
         ];
@@ -36,6 +37,9 @@ class LoginRequest extends FormRequest
 
     /**
      * Attempt to authenticate the request's credentials.
+     * 
+     * Se preferir login via username ao invés de email:
+     * trocar 'email' por 'username' na função authenticate()
      *
      * @return void
      *

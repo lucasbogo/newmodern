@@ -60,7 +60,7 @@ File: Main Css File
   padding: 0 0 0 calc(24px / 2);
 }
 .navbar-header .dropdown .show.header-item {
-  background-color: #232838;
+  background-color: #cbcdd4;
 }
 
 .navbar-brand-box {
@@ -93,7 +93,7 @@ File: Main Css File
   height: 38px;
   padding-right: 40px;
   padding-left: 20px;
-  background-color: #2b3244;
+  background-color: #83858b;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 30px;
@@ -241,7 +241,7 @@ body[data-topbar=dark] .app-search input.form-control::-webkit-input-placeholder
 }
 
 body[data-sidebar=dark] .navbar-brand-box {
-  background: #252b3b;
+  background: #adaeaf;
 }
 body[data-sidebar=dark] .logo-dark {
   display: none;
